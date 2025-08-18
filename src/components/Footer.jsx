@@ -1,8 +1,9 @@
 const Footer = props => {
   return (
-    <p>
-      Made with {props.techno} at {props.school} by {props.name}
-    </p>
+    <footer>
+      Made with <span>{props.techno}</span> at <span>{props.school}</span> by{" "}
+      <span>{props.name}</span>
+    </footer>
   );
 };
 
