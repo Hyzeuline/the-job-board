@@ -7,8 +7,12 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 header {
@@ -23,18 +27,42 @@ main {
   justify-content: center;
 }
 .container {
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
+  margin: 50px 100px 50px 100px;
+  width: 1020px;
+  height: 1020px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #dc8585;
+  border: #dc8585 solid 20px;
 }
 .item {
-  width: calc((100% - 20px) / 3);
-  height: calc((100% - 20px) / 3);
-  margin-bottom: 10px;
-  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.red {
+  border: solid red 5px;
+}
+.green {
+  border: solid green 5px;
+}
+
+.yellow {
+  border: solid yellow 5px;
+}
+
+.blue {
+  border: solid blue 5px;
+}
+
+.pink {
+  border: solid pink 5px;
+}
+
+.item > div {
+  display: flex;
 }
 
 footer {
