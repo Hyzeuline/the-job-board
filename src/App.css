@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(72, 70, 70);
+  color: white;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #dc8585;
+}
+.item {
+  width: calc((100% - 20px) / 3);
+  height: calc((100% - 20px) / 3);
+  margin-bottom: 10px;
+  background-color: #333333;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(165, 163, 163);
+  color: black;
+  text-align: center;
+}
+
+.techno,
+.school,
+.name {
+  font-weight: bold;
+}

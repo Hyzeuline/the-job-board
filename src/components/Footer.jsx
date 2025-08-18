@@ -1,7 +1,7 @@
 const Footer = props => {
   return (
     <p>
-      Made with {props.school} at {props.position} by {props.name}
+      Made with {props.techno} at {props.school} by {props.name}
     </p>
   );
 };
