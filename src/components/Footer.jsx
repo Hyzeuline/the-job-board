@@ -1,8 +1,8 @@
-const Footer = props => {
+const Footer = ({ techno, school, name }) => {
   return (
     <footer>
-      Made with <span>{props.techno}</span> at <span>{props.school}</span> by{" "}
-      <span>{props.name}</span>
+      Made with <span> {techno} </span> at <span> {school} </span> by
+      <span>{name}</span>
     </footer>
   );
 };

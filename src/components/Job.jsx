@@ -1,12 +1,8 @@
-const Job = props => {
+const Job = ({ color, title, contractType, country, city }) => {
   return (
-    <div className={`item ${props.color}`}>
-      <h2>{props.title}</h2>
-      <div>
-        <div>{props.contractType}</div>
-        <div>{props.country}</div>
-        <div>{props.city}</div>
-      </div>
+    <div className={`item ${color}`}>
+      <h2>{title}</h2>
+      <p>{`${contractType} - ${country} - ${city}`}</p>
     </div>
   );
 };

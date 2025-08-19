@@ -1,7 +1,9 @@
-const Header = props => {
+import Title from "./Title";
+
+const Header = () => {
   return (
     <header>
-      <h1>{props.title}</h1>
+      <Title />
     </header>
   );
 };

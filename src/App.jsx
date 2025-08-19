@@ -6,10 +6,8 @@ import Jobs from "./components/Jobs";
 function App() {
   return (
     <body>
-      <Header title="The Job Board" />
-      <main>
-        <Jobs />
-      </main>
+      <Header />
+      <Jobs />
       <Footer techno="React" school="Le Reacteur" name="Hyzeuline" />
     </body>
   );
